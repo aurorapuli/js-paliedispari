@@ -3,7 +3,7 @@
 
 
 // Chiedo all'utente di inserire un nome
-let userWord = prompt('Inserisci una parola');
+// let userWord = prompt('Inserisci una parola');
 
 // creo la funzione in cui stabilisco se la parola è polindroma 
 
@@ -31,4 +31,4 @@ function wordPalindroma(word) {
 
 wordPalindroma (userWord);
 
-console.log(wordPalindroma(userWord));
+// console.log(wordPalindroma(userWord));
