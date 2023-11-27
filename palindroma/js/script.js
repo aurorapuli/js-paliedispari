@@ -7,7 +7,7 @@ let userWord = prompt('Inserisci una parola');
 
 // creo la funzione in cui stabilisco se la parola è polindroma 
 
-function wordPolindroma(word) {
+function wordPalindroma(word) {
 
     // inverto la parola scritta 
 
@@ -17,11 +17,11 @@ function wordPolindroma(word) {
     let risultato;
 
     if (userWord === wordReverse){
-        risultato = "la parola è polindroma"
+        risultato = "la parola è palindroma"
 
     } else{
 
-        risultato = "la parola non è polindroma"
+        risultato = "la parola non è palindroma"
     }
     
     return risultato;
@@ -29,6 +29,6 @@ function wordPolindroma(word) {
 
 
 
-wordPolindroma (userWord);
+wordPalindroma (userWord);
 
-console.log(wordPolindroma(userWord));
+console.log(wordPalindroma(userWord));
